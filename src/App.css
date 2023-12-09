@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #011;
+}
+
+.text {
+  color: #fff;
+}

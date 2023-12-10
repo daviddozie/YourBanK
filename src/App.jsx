@@ -1,24 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Heading from './Components/heading'
 import './App.css'
+import Header from './components/Header/Header'
+import Main from './Pages/Home/Home'
 
 function App() {
   return (
     <div>
-      <Heading 
+      <Header
+        img="/images/shape-30.png"
+        title="YourBanK"
+        link="./index.html"
+        signLink="#"
+        sign="Sign Up"
+      />
+      <Main 
 
       />
-      <Button/>
-    </div>
-  )
-}
-
-function Button() {
-  return (
-    <div>
-      <button>Click Me</button>
     </div>
   )
 }
